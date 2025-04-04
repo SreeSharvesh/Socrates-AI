@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socrates</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Tommy+Cherie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='Pi7_socretes.png') }}" alt="Socrates AI Logo" class="logo">
+        <div class="socrates-name">Socrates</div>
+    </div>
+
+    <div class="main-container">
+        <div class="header" id="greeting">Good afternoon.<br>How can I help you today?</div>
+
+        <!-- Chat Input Box -->
+        <div class="chat-container">
+            <input class="chat-input" type="text" id="user-query" placeholder="Ask something...">
+            <button class="ask-button" id="ask-btn">➤</button>
+        </div>
+
+        <!-- Response Box (Hidden Initially) -->
+        <div id="response-box" class="response-box hidden"></div>
+
+        <!-- Research Buttons -->
+      <!-- Research Buttons -->
+      <div class="research-options">
+        <button class="research-btn">🤖 Auto-Fill Forms</button>
+        <button class="research-btn">📩 Auto-Login</button>
+        <button class="research-btn">🌐 Navigate & Search</button>
+        <button class="research-btn">⚙️ Task Automation</button>
+        <button class="research-btn">📜 Summarize Content</button>
+    </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
