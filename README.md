@@ -71,6 +71,10 @@ Example tasks:
 
 This project is licensed under the MIT License.
 
+## Results
+
+Selected as one of the Top 6 to present this to Shark Tanks! 
+
 ## Acknowledgments
 
 - [Google Gen AI Python SDK](https://github.com/googleapis/python-genai)
