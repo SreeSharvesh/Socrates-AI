@@ -64,7 +64,13 @@ Example tasks:
 - **System Instructions:** The system prompts given to the model can be adjusted to change how detailed the instructions are.
 - **Functionality:** The script can be extended with additional tools or integrations as needed.
 
-## Results
+## Demo
+
+
+https://github.com/user-attachments/assets/660c97ef-2b6c-4b38-b897-511b8d37651c
+
+
+## Result
 
 Selected as one of the Top 6 projects and presented it to Shark Tank India!
 
