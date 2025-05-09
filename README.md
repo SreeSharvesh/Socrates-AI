@@ -64,15 +64,6 @@ Example tasks:
 - **System Instructions:** The system prompts given to the model can be adjusted to change how detailed the instructions are.
 - **Functionality:** The script can be extended with additional tools or integrations as needed.
 
-## Troubleshooting
-
-- **Missing API Key:** Ensure the `GEMINI_API_KEY` environment variable is correctly set.
-- **File Upload Issues:** Verify the provided PDF file path is correct and the file is accessible.
-
-## License
-
-This project is licensed under the MIT License.
-
 ## Results
 
 Selected as one of the Top 6 projects and presented it to Shark Tank India!
