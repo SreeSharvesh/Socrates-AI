@@ -75,7 +75,7 @@ This project is licensed under the MIT License.
 
 ## Results
 
-Selected as one of the Top 6 to present this to Shark Tanks! 
+Selected as one of the Top 6 projects and presented it to Shark Tank India!
 
 ## Acknowledgments
 
