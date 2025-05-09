@@ -1,12 +1,14 @@
-# Stytch Platform Assistant with PDF-Guided Automation
+# Socrates AI - Your Ultimate Multimodal AI agent
 
-This project implements a command-line interface that helps users navigate and accomplish tasks in the Stytch platform. It leverages Google's Gen AI SDK and a browser automation agent to execute detailed step-by-step instructions. The tool uses ApertureDB to intelligently retrieve relevant documentation from Stytch's PDF guides to inform the automated processes.
+This project is a command-line based AI agent that helps users complete tasks easily by understanding and executing tutorials or modules given by the user. It automatically generates its own chain of thought to figure out the steps required and performs the task instantly.
+
+Currently, it has been implemented for the Stych platform — a SaaS tool used by startup founders to manage their databases. However, the system is designed to be easily adaptable to any other product or platform.
 
 ## Features
 
-- **Interactive Assistance:** Engage in a conversation-like interface to specify your Stytch platform tasks.
-- **Smart Documentation Lookup:** Uses ApertureDB to automatically find and reference relevant sections from Stytch's documentation PDFs.
-- **Automated Task Execution:** Leverages browser automation to actually perform the tasks in the Stytch platform.
+- **Interactive Assistance:** Engage in a conversation-like interface to specify your tasks.
+- **Smart Documentation Lookup:** Uses ApertureDB to automatically find and reference relevant sections from documentation PDFs.
+- **Automated Task Execution:** Leverages browser automation to actually perform the tasks in the platform.
 - **Google Gemini AI Integration:** Utilizes the [google-genai](https://github.com/googleapis/python-genai) SDK to understand tasks and generate precise automation instructions.
 - **Execution Feedback:** Provides real-time feedback on task execution and allows for follow-up questions.
   
